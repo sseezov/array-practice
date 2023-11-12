@@ -27,6 +27,7 @@ jobs:
         name: decrypting-action
 
       - run: make setup
+      - run: make lint
       - run: make test
 
       - name: setup git config
