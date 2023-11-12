@@ -3,14 +3,8 @@ name: GitHub Classroom Workflow
 
 on:
   push:
-    branches:
-      - main
-
-permissions:
-  checks: write
-  actions: read
-  contents: read
-
+    branches: [$default-branch]
+    
 jobs:
   build:
     name: Autograding
