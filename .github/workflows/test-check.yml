@@ -26,8 +26,7 @@ jobs:
           PASSWORD: ${{ secrets.TRANSCRYPT_PASSWORD }}
         name: decrypting-action
 
-      - run: make install
-      - run: make lint
+      - run: make setup
       - run: make test
 
       - name: setup git config
