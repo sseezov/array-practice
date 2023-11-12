@@ -1,13 +1,10 @@
 ---
-name: GitHub Classroom Workflow
+name: Scary Test Workflow
 
-on:
-  push:
-    branches: [$default-branch]
-    
+on: push
+
 jobs:
-  build:
-    name: Autograding
+  testing:
     runs-on: ubuntu-latest
     if: github.actor != 'Bot'
     steps:
@@ -16,4 +13,5 @@ jobs:
         with:
           node-version: 20
           cache: "npm"
-      - uses: education/autograding@v1
+      - name: What's my grade?
+        run: npm run test
