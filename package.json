@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --test"
+    "test": "jest --colors"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +17,8 @@
     "eslint-plugin-markdown": "^3.0.1",
     "npm-check-updates": "^16.10.12",
     "simple-git-hooks": "^2.8.1"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
   }
 }
