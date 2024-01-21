@@ -1,6 +1,7 @@
 import * as funcs from '../index.js';
-
-test('task1', () => {
+/* import { describe, it } from 'jest'
+ */
+/* test('task1', () => { */
   describe('task1', () => {
     it('should count', () => {
       expect(funcs.countAverage([5, 7, 9, 3, 2])).toEqual(5.2);
@@ -75,4 +76,4 @@ test('task1', () => {
       expect(funcs.intersection()).toBeUndefined();
     });
   });
-});
+/* }); */
