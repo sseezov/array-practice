@@ -16,5 +16,6 @@ jobs:
     if: github.actor != 'github-classroom[bot]'
     steps:
       - uses: actions/checkout@v4
-      - uses: make test
+      - name: Jest tests
+        run: make test
       - uses: education/autograding@v1
