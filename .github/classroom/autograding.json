@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "step1",
+      "name": "task1",
       "setup": "npm install",
       "run": "node --test --test-name-pattern step1",
       "input": "",
@@ -11,7 +11,7 @@
       "points": 1
     },
     {
-      "name": "step2",
+      "name": "task2",
       "setup": "npm install",
       "run": "node --test --test-name-pattern step2",
       "input": "",
@@ -21,7 +21,7 @@
       "points": 1
     },
     {
-      "name": "step3",
+      "name": "task3",
       "setup": "npm install",
       "run": "node --test --test-name-pattern step3",
       "input": "",
@@ -31,7 +31,7 @@
       "points": 1
     },
     {
-      "name": "step4",
+      "name": "task4",
       "setup": "npm install",
       "run": "node --test --test-name-pattern step4",
       "input": "",
@@ -41,7 +41,7 @@
       "points": 1
     },
     {
-      "name": "step5",
+      "name": "task5",
       "setup": "npm install",
       "run": "node --test --test-name-pattern step5",
       "input": "",

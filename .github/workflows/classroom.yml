@@ -1,17 +1,19 @@
----
-name: Scary Test Workflow
+name: GitHub Classroom Workflow
 
-on: push
+on:
+  - push
+  - workflow_dispatch
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
 
 jobs:
-  testing:
+  build:
+    name: Autograding
     runs-on: ubuntu-latest
-    if: github.actor != 'Bot'
+    if: github.actor != 'github-classroom[bot]'
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 20
-          cache: "npm"
-      - name: What's my grade?
-        run: npm run test
+      - uses: actions/checkout@v4
+      - uses: education/autograding@v1
