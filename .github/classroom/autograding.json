@@ -3,7 +3,7 @@
     {
       "name": "task1",
       "setup": "npm install",
-      "run": "node --test --test-name-pattern step1",
+      "run": "jest --colors --runTestsByPath __tests__/index.test.js --testNamePattern='task1'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "task2",
       "setup": "npm install",
-      "run": "node --test --test-name-pattern step2",
+      "run": "jest --colors --runTestsByPath __tests__/index.test.js --testNamePattern='task2'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "task3",
       "setup": "npm install",
-      "run": "node --test --test-name-pattern step3",
+      "run": "jest --colors --runTestsByPath __tests__/index.test.js --testNamePattern='task3'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "task4",
       "setup": "npm install",
-      "run": "node --test --test-name-pattern step4",
+      "run": "jest --colors --runTestsByPath __tests__/index.test.js --testNamePattern='task4'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "task5",
       "setup": "npm install",
-      "run": "node --test --test-name-pattern step5",
+      "run": "jest --colors --runTestsByPath __tests__/index.test.js --testNamePattern='task5'",
       "input": "",
       "output": "",
       "comparison": "included",

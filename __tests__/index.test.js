@@ -1,6 +1,5 @@
 import * as funcs from '../index.js';
-/* import { describe, it } from 'jest'
- */
+
 /* test('task1', () => { */
   describe('task1', () => {
     it('should count', () => {
