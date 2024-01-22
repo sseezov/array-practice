@@ -3,7 +3,7 @@
     {
       "name": "task1",
       "setup": "npm ci",
-      "run": "jest --colors --runTestsByPath __tests__/index.test.js --testNamePattern='task1'",
+      "run": "jest --colors --runTestsByPath __tests__/index.test.js --experimental-vm-modules --testNamePattern='task1' ",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "task2",
       "setup": "npm ci",
-      "run": "jest --colors --runTestsByPath __tests__/index.test.js --testNamePattern='task2'",
+      "run": "jest --colors --runTestsByPath __tests__/index.test.js --experimental-vm-modules --testNamePattern='task2'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "task3",
       "setup": "npm ci",
-      "run": "jest --colors --runTestsByPath __tests__/index.test.js --testNamePattern='task3'",
+      "run": "jest --colors --runTestsByPath __tests__/index.test.js --experimental-vm-modules --testNamePattern='task3'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "task4",
       "setup": "npm ci",
-      "run": "jest --colors --runTestsByPath __tests__/index.test.js --testNamePattern='task4'",
+      "run": "jest --colors --runTestsByPath __tests__/index.test.js --experimental-vm-modules --testNamePattern='task4'",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "task5",
       "setup": "npm ci",
-      "run": "jest --colors --runTestsByPath __tests__/index.test.js --testNamePattern='task5'",
+      "run": "jest --colors --runTestsByPath __tests__/index.test.js --experimental-vm-modules --testNamePattern='task5'",
       "input": "",
       "output": "",
       "comparison": "included",
